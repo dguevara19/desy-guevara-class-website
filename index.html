@@ -1,37 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+  <html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desy's Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body style="text-align: center;">
-   <header>
-    <h1><img src="nerd.png" alt="nerd chococat" width="50"> Desy's Awesome Website </h1>
-   </header>
-   <section>
-    <h2 >Hi! My Name is Desy Guevara :) </h2>
-   <p >I'm a third year art major also doing minors in design and communications :) 
-    <br> My hobbies include cd collecting, sewing, and painting, and I love cats!</p> 
-  </section>
-  <img style="display: block; margin: 0 auto;" src="choco.png" alt="rectangular chococat" width="250">
-   <div style="text-align: center;background-color:rgb(210, 232, 255) ; size : 200px; border:1px solid rgb(189, 242, 255);">
-   <a href="https://www.sanrio.com/collections/chococat?srsltid=AfmBOoptDkONdkh6k5yYk_0QNvifDwBpk1ntLNs7DEueEmT00X4oUPUO&page=2#goodies_title/" target="_blank"
-   > Chococat is one of my favorite black cats in popular media, and I own multiple plushies of him!</a>
- </div>
- <ul>My Favorite Albums!</ul>
-  <li><img src="bullets.jpg" alt="My Chemical Romance" width="100"></li>
-    <li > "I Brought You My Bullets, You Brought Me Your Love" <br> by My Chemical Romance </li>
-     <li> <img src="feline.jpg" alt="Feline" width="100"></li>
-    <li > "Save Your Face" <br> by Feline </li>
-      <li> <img src="magbay.jpg" alt="Magdalena Bay" width="100"></li>
-    <li > "Imaginal Disk" <br> by Magdalena Bay</li>
-<br> </br>
-<br> </br>
-<br> </br>
-  <footer>
-  <a href="https://www.youtube.com./watch?v=dQw4w9WgXcQ" target="_blank"> <img style="display: block; margin: 0 auto;" src="chogif.jpg" alt="chococat waving" title="Click Me!!" width="200"></a> 
+    <link rel="stylesheet" href="style.css"> 
+  </head>
 
+<body>
+
+  <header id="siteheader">
+     <h1><img src="nerd.png" alt="nerd chococat" width="50"> Desy's Awesome Website </h1>
+        <nav id="navigation">
+          <ul>
+            <li id="head"><a href="index.html">Home </a>
+              <li id="head"> <a href="about.html">About Me </a> 
+                <li id="head"> <a href="contact.html">Contact</a></li>
+          </ul>
+     </nav>
+  </header>
+
+   <section id="bio">
+    <h2>Hi! My Name is Desy Guevara :)</h2>
+    <p>
+      I'm a third year art major also doing minors in design and communications.<br>
+      My hobbies include CD collecting, sewing, and painting, and I love cats!
+    </p>
+  </section>
+  
+  <section id="chococube">
+    <img class="choco-img" src="choco.png" alt="rectangular chococat" width="200">
+    <div class="choco-box">
+      <a href="https://www.sanrio.com/collections/chococat?srsltid=AfmBOoptDkONdkh6k5yYk_0QNvifDwBpk1ntLNs7DEueEmT00X4oUPUO&page=2#goodies_title/" target="_blank">
+        Chococat is one of my favorite black cats in popular media, and I own multiple plushies of him!
+      </a>
+    </div>
+  </section>
+
+ <div id="albums">
+ <ul id="favs"> My Favorite Albums!</ul>
+      <li id="cov"><img src="bullets.jpg" alt="My Chemical Romance" width="100"></li>
+    <li id="cov"> "I Brought You My Bullets, You Brought Me Your Love" <br> by My Chemical Romance </li>
+      <li id="cov"><img src="feline.jpg" alt="Feline" width="100"></li>
+    <li id="cov"> "Save Your Face" <br> by Feline </li>
+      <li id="cov"><img src="magbay.jpg" alt="Magdalena Bay" width="100"></li>
+    <li id="cov"> "Imaginal Disk" <br> by Magdalena Bay</li>
+</div>
+
+ <footer>
+    <a href= "https://www.youtube.com./watch?v=dQw4w9WgXcQ" target="_blank">
+      <img src="chogif.jpg" alt="chococat waving" title="Click Me!!" width="200">
+    </a>
+  </footer>
+  
 </body>
 </html>
