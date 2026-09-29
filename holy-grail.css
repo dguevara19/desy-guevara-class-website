@@ -12,15 +12,15 @@ html, body {
 
 
 .header, .footer {
-  background-color: lightyellow;
   padding: 20px;
   text-align: center;
    padding: 20px; 
-    color: darkblue;
-    font-family: 'Trebuchet MS', sans-serif;
-    border-left: 15px solid pink;
-    border-right: 15px solid pink;
+  
 }
+.header{
+  background-color: pink;
+  color: white;
+font-family: 'kalnia';}
 
 .middle {
   display: flex;
@@ -31,12 +31,12 @@ html, body {
 .left-sidebar, .right-sidebar {
   gap: 15px;
     padding: 20px;
-    background-color: pink;
-    color: white;
+    background-color: lightyellow;
+    color: darkblue;
     text-decoration: underline;
     font-family: 'Kalnia', serif;
     border-radius: 10px;
-  flex: 0 0 200px;
+  flex: 0 0 100px;
   
 }
 
@@ -45,10 +45,18 @@ html, body {
    flex: 1 0 auto;
     flex-direction: column;
     align-items: center;
-     background-color: lightblue;
+     background-color: rgb(210, 232, 255);
      padding: 20px;
      border-radius: 10px;
     grid-area: main;
     gap: 15px;
     text-align: center;
+    justify-content: space-around;
+      font-family: trebuchet ms, sans-serif;
+}
+
+.footer{
+  background-color: lightyellow;
+  color: darkblue;
+   font-family: 'Trebuchet MS', sans-serif;
 }
