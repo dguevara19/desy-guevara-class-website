@@ -2,18 +2,23 @@ body {
   margin: 0 auto;
   background-color: lightyellow;
   color: darkblue;
-  font-family: Arial, sans-serif;
+  font-family: trebuchet ms, sans-serif;
+  border-left: 15px solid pink;
+  border-right: 15px solid pink;
+  padding: 20;
 }
 
 .choco-box {
-  width: 700px;
+  width: 675px;
   margin: 0 auto;
-  padding: 0;
+  padding: 15px;
   border: 1px solid rgb(189, 242, 255);
   background-color: rgb(210, 232, 255);
   color: darkblue;
   font-family: Arial, sans-serif;
-  width: 700px;
+  border-radius: 10px
+  justify-content: space-even
+ 
 }
 
 .choco-img {
@@ -21,13 +26,9 @@ body {
   margin: 0 auto;
 }
 
-.choco-box {
-  text-align: center;
-  padding: 15px; 
-}
-
 #siteheader {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 15px;
@@ -37,16 +38,20 @@ body {
   color: white;
   text-decoration: underline;
   font-family: 'kalnia';
+  align-content: center;
 }
 
 #navigation {
   display: flex;
+  flex-direction: row;
   gap: 15px;
   margin: 10px;
   padding: 0;
   float: right;
   list-style-type: none;
   font-family: 'kalnia';
+  align-content: center;
+
 }
 
 #head {
@@ -55,6 +60,11 @@ body {
   float: right;
   text-decoration: none;
   font-family: 'kalnia';
+  gap: 15px;
+  justify-content: space-around;
+  align-items: center;
+  align-content:center;
+
 }
 
 
