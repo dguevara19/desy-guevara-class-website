@@ -4,6 +4,13 @@ body {
   height: 100%;
 }
 
+
+#image1, #image2 {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+}
 .page {
   display: flex;
   flex-direction: column;
